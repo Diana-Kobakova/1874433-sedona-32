@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Диана](https://up.htmlacademy.ru/htmlcss/32/user/1874433).
-* Наставник: `Иван Бессалов`.
+* Наставник: [Иван Бессалов](https://htmlacademy.ru/profile/lvov).
 
 ---
 
