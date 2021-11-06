@@ -1,0 +1,212 @@
+
+/* PT SANS */
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format ("woff2");
+  font-display: swap;
+}
+
+.logo {
+  width: 1200;
+  height: 65;
+  align-self: center;
+  background-color: white;
+}
+
+.navigation-link {
+  font-family: "PT Sans" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  background-color: white;
+}
+
+
+body {
+  background-color: tomato;
+}
+
+section,
+main-page {
+  background-image: url ("images/index-background.jpg");
+}
+
+.advantages-title {
+  font-family: "PT Sans" sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  line-height: 28px;
+color: white;
+background-color: #83B3D3;
+}
+
+.advantages-number {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color:white;
+  background-color: #83B3D3;
+}
+
+.advanteges-description {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  line-height: 21px;
+  color: white;
+  background-color: #83B3D3;
+}
+
+
+@font-face {
+    font-weight: 400;
+    font-family: "Montserrat";
+    font-style: normal;
+    src: url("fonts/Montserrat-Regular.woff") format("woff");
+  }
+  
+  @font-face {
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-style: normal;
+    src: url("fonts/Montserrat-Bold.woff") format("woff");
+  }
+  
+  html,
+  body {
+    margin: 0;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  body {
+    min-width: 430px;
+    border: 2px dashed #c7e4ff;
+  }
+  
+  html::before,
+  body::before,
+  header::before,
+  footer::before,
+  main::before {
+    color: #7fc1ff;
+  }
+  
+  main,
+  header,
+  footer {
+    background-color: #f3faff;
+    border: 2px solid #7fc1ff;
+  }
+  
+  nav,
+  section,
+  article,
+  aside {
+    background-color: #f9f7ff;
+    border: 2px solid #9779ec;
+  }
+  
+  nav::before,
+  section::before,
+  article::before,
+  aside::before {
+    color: #9779ec;
+  }
+  
+  h1 {
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 2px solid #ff994f;
+  }
+  
+  h1::before {
+    content: "h1";
+    color: #ff994f;
+  }
+  
+  p {
+    background-color: #ffffff;
+    border: 2px solid #f36dff;
+  }
+  
+  p::before {
+    color: #f36dff;
+    content: "p";
+  }
+  
+  * {
+    position: relative;
+    padding: 25px 25px 20px;
+    margin: 0;
+    border-radius: 4px;
+  }
+  
+  *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  *::before {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+  }
+  
+  html::before {
+    content: "html";
+  }
+  
+  body::before {
+    content: "body";
+  }
+  
+  main::before {
+    content: "main";
+  }
+  
+  header::before {
+    content: "header";
+  }
+  
+  footer::before {
+    content: "footer";
+  }
+  
+  section::before {
+    content: "section";
+  }
+  
+  article::before {
+    content: "article";
+  }
+  
+  aside::before {
+    content: "aside";
+  }
+  
+  nav::before {
+    content: "nav";
+  }
+
+  .button {
+    width: 160px;
+    height: 37px;
+    border-radius: 4px;
+    color: #756257;
+  }
